@@ -8,7 +8,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'output Management'
+      title: 'webpack-demo',
+      favicon: './src/assets/favicon.ico'
     })
   ],
   output: {
